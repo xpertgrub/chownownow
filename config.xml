@@ -55,14 +55,14 @@
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" /> 
                
     <gap:plugin name="cordova-plugin-googleplus" source="npm" spec="6.0.0"  >
-	  <variable name="REVERSED_CLIENT_ID" value="" />
+	  <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.1002502580192-58ttvbjf6j3qmn4efndgpnn0l304bogr" />
 	  <variable name="PLAY_SERVICES_VERSION" value="11.0.1" /> 
 	</gap:plugin>
     
     <platform name="android">	
 		<config-file parent="/resources" target="./res/values/strings.xml">
-			<string name="fb_app_id"></string>
-			<string name="fb_app_name">chownownow</string>
+			<string name="fb_app_id">365508790750003</string>
+			<string name="fb_app_name">Chow Now Now</string>
 		</config-file>               
     </platform>
  
@@ -72,7 +72,7 @@
 	</gap:plugin>
 		
 	<plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" source="npm" spec="5.0.4" >
-       <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="" />
+       <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="AIzaSyDBOtJBK6vcu0hACVAi-5Zm6bfAz_PIzLw" />
     </plugin>
 	
 	<plugin name="com.cmackay.plugins.googleanalytics" source="npm" spec="1.0.4" >	
@@ -92,7 +92,7 @@
 
     <platform name="ios">    
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-	        <string>Chow Now Now want to always use your location</string>
+	        <string>Chow Now Now wants to always use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
 	        <string>Chow Now Now wants to use your location</string>
