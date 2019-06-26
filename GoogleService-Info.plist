@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1002502580192-3o8hr7qqmo6vnb0pg3g3ohto0a6f9ktm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1002502580192-3o8hr7qqmo6vnb0pg3g3ohto0a6f9ktm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC8xO0ICt0U692ck1hJ7537XQSHkEcHkuo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1002502580192</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.xpertgrub.chownownow</string>
+	<key>PROJECT_ID</key>
+	<string>chow-now-now-239417</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chow-now-now-239417.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></true>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1002502580192:ios:0e148bff500bde5c</string>
+	<key>DATABASE_URL</key>
+	<string>https://chow-now-now-239417.firebaseio.com</string>
+</dict>
+</plist>
