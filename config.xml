@@ -16,15 +16,15 @@
     <content src="index.html" />
                
 	<preference name="orientation" value="portrait" />		
-	<preference name="phonegap-version" value="cli-8.1.1" />
+	<preference name="phonegap-version" value="cli-9.0.0" />
 			    
 	<preference name="AutoHideSplashScreen" value="false" />  	
     <preference name="SplashScreenDelay" value="10000" />    
     <preference name="fullscreen" value="false" />        
     <preference name="ShowSplashScreenSpinner" value="false" />	   
         
-    <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="28" />
     <preference name="DisallowOverscroll" value="true" />
             
     
