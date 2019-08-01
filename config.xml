@@ -5,12 +5,12 @@
     id        = "com.xpertgrub.chownownow"
     versionCode = "30"
     version   = "3.0">
-    <name>Chow Now Now</name>
+    <name>Chow Now Now Mobile App</name>
     <description>
-        Chow Now Now Food Ordering App
+        Chow Now Now Food and Beverage Delivery Services
     </description>
     <author email="xpertgrub@gmail.com" href="https://www.xpertgrub.com">
-        Xpert Grub
+        Xpert Grub LLC
     </author>
             
     <content src="index.html" />
@@ -67,7 +67,7 @@
     </platform>
  
     <gap:plugin name="cordova-plugin-facebook4" source="npm"  spec="3.2.0" >
-	  <variable name="APP_ID" value="" />
+	  <variable name="APP_ID" value="365508790750003" />
 	  <variable name="APP_NAME" value="Chow Now Now" />
 	</gap:plugin>
 		
@@ -104,27 +104,27 @@
 	</edit-config>
 	
 	<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>needs photo library access to get pictures for the app</string>
+	    <string>needs photo library access to get pictures from there</string>
 	</edit-config>
 	
 	<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need location access to find vendors nearby</string>
+	    <string>needs location access to find things nearby</string>
 	</edit-config>
 	
 	<edit-config target="NSLocationAlwaysAndWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need location access to find vendors nearby</string>
+	    <string>needs location access to find things nearby</string>
 	</edit-config>
 	
 	<edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need location access to find vendors nearby</string>
+	    <string>needs location access to find things nearby</string>
 	</edit-config>
 	
 	<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>needs photo library access to save pictures</string>
+	    <string>needs photo library access to save pictures there</string>
 	</edit-config>
 	
 	<edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
-      <string>need microphone access to record sound</string>
+      <string>needs microphone access to record sounds</string>
     </edit-config>
     
 	<platform name="android">

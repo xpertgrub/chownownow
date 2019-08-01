@@ -133,7 +133,7 @@
     
     <ons-list-item onclick="initBrowseMerchant();" class="bottom-menu-item">
       <ons-icon icon="ion-android-menu"></ons-icon> 
-      <span class="trn" data-trn-key="browse_resto">Browse Joints</span>
+      <span class="trn" data-trn-key="browse_resto">Browse Chow Joints</span>
     </ons-list-item>
     
     <ons-list-item onclick="showProfile();" class="bottom-menu-item">
@@ -148,7 +148,7 @@
     
     <ons-list-item onclick="showAddressBook();" class="bottom-menu-item">
       <ons-icon icon="ion-ios-location"></ons-icon> 
-      <span class="trn" data-trn-key="address_book">Address Book</span>
+      <span class="trn" data-trn-key="address_book">My Delivery Locations</span>
     </ons-list-item>    
     
     <ons-list-item onclick="menu.setMainPage('pts.html', {closeMenu: true})" class="menu-pts bottom-menu-item">
@@ -197,7 +197,7 @@
     </div> 
        
     <div class="home-page wrapper center">       
-       <h4 class="trn" data-trn-key="enter_your_location">Where You Dey</h4>
+       <h4 class="trn" data-trn-key="enter_your_location">Where You Dey Now..?</h4>
        
        <section class="field-section">
          <input id="s" value="" type="text" class="text-input text-input--underbar trn" ng-model="text" placeholder="Street Address,City,State" data-trn-key="home_search_placeholder" 
@@ -212,7 +212,7 @@
        </div>
        
         <button class="button green-btn button--large" onclick="searchMerchant();">
-	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
+	      <span class="trn" data-trn-key="search_restaurant">Search Chow Joints</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	   </button>
 	   	   	  
@@ -262,7 +262,7 @@
        
        <div class="padtop25">
         <button class="button green-btn button--large" onclick="searchMerchant();">
-	      <span class="trn" data-trn-key="show_restaurants">Show Joints</span>    	      
+	      <span class="trn" data-trn-key="show_restaurants">Show Chow Joints</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	   </button>
 	   </div>
@@ -593,7 +593,7 @@
 		  <input type="checkbox" name="delivery_asap" value="1" class="delivery_asap" onclick="toogleTimewrap();" >
 		  <div class="checkbox__checkmark"></div>
 		  <span class="ons-checkbox-inner small-font-dim trn" data-trn-key="deliver_asap">
-		  Deliver Asap
+		  Bring Am Soonest
 		  </span>
 		</label>
 	</ons-list-item>
@@ -611,7 +611,7 @@
        </ons-list-item>    
        
        <ons-list-item modifier="chevron" onclick="showChangeAddressPage();" class="change_address_wrap" > 
-          <span class="trn" data-trn-key="change_your_address">Change your address here</span>
+          <span class="trn" data-trn-key="change_your_address">Change your delivery location here</span>
           <p class="small-font-dim google_formatted_address"></p>      
        </ons-list-item>    
        
@@ -759,14 +759,14 @@
    <div class="wrapper">
        <ons-row class="row">
            <ons-col class="text-big concat-text trn" width="60%" data-trn-key="shipping_address">
-           Shipping address
+           Delivery Location
            </ons-col>           
        </ons-row>
    </div>  
       
    <ons-list>       
        <ons-list-item modifier="chevron" onclick="showPageAdressSelection();" > 
-       <span class="trn" data-trn-key="choose_address">Choose Address</span>    
+       <span class="trn" data-trn-key="choose_address">Choose Location</span>    
        <p class="small-font-dim delivery-address-text"></p>   
        </ons-list-item>           
    </ons-list>
@@ -836,7 +836,7 @@
 			  <div class="switch__toggle"></div>
 		  </label>  		  
 		  <span class="small-font-dim trn" data-trn-key="save_address_book" style="margin-top: 8px; display: inline-block">
-		    Save to my address book
+		    Save put my delivery location list inside
 		  </span>
 	    </div> 
     </div> 
@@ -855,7 +855,7 @@
 
   <ons-page id="page-dialog-addressbook" >  
 	  <ons-toolbar> 
-	      <div class="center white trn" data-trn-key="address_book">Address Book</div>   	      	      	      
+	      <div class="center white trn" data-trn-key="address_book">My Delivery Locations</div>   	      	      	      
 	  </ons-toolbar>	  
 	  	
 	  <ons-scroller id="addressbook-popup">   
@@ -913,7 +913,7 @@
    
    <div class="wrapper">
        <ons-row class="row">
-           <ons-col class="text-big trn" data-trn-key="how_you_like_pay" >How would you like to pay?</ons-col>           
+           <ons-col class="text-big trn" data-trn-key="how_you_like_pay" >How you wan pay?</ons-col>           
        </ons-row>
    </div>  
    
@@ -946,13 +946,13 @@
         
         <ons-list-item class="center apply-voucher">
         <button class="button button--quiet green" onclick="applyVoucher();" >
-         <span class="trn" data-trn-key="apply_voucher">Apply Voucher</span>          
+         <span class="trn" data-trn-key="apply_voucher">Apply Discount Code</span>          
         </button>  
         </ons-list-item>
         
         <ons-list-item class="center remove-voucher">
         <button class="button button--quiet green" onclick="removeVoucher();" >
-         <span class="trn" data-trn-key="remove_voucher">Remove Voucher</span>          
+         <span class="trn" data-trn-key="remove_voucher">Remove Discount Code</span>          
         </button>  
         </ons-list-item>
        
@@ -1079,10 +1079,10 @@
    </ons-list>
    
    <ons-list id="book-table" class="list-dim-text">
-     <ons-list-header class="center trn" data-trn-key="book_a_table">Book a table</ons-list-header>
+     <ons-list-header class="center trn" data-trn-key="book_a_table">Reserve a table</ons-list-header>
      <ons-list-item class="center">       
        <button class="button button--quiet green bold trn" onclick="loadBookingForm();" data-trn-key="book_here">
-          Book Here
+          Reserve Here
        </button>       
      </ons-list-item>
    </ons-list>   
@@ -1100,7 +1100,7 @@
 <ons-page id="page-booking" class="onsen-display">
    <ons-toolbar>        
      <div class="left"><ons-back-button></ons-back-button></div> 
-     <div class="center white"><span id="search-text" class="trn" data-trn-key="book_a_table">Book a table</span></div>                         
+     <div class="center white"><span id="search-text" class="trn" data-trn-key="book_a_table">Reserve a table</span></div>                         
      <div class="right">        
      </div>
    </ons-toolbar>
@@ -1141,7 +1141,7 @@
    
    <div class="field-wrapper">
       <input type="text" name="email"  class="email text-input text-input--underbar has_validation" 
-      placeholder="Email Address" value="" data-validation="email" data-validation-error-msg="You have not given a correct e-mail address!" >
+      placeholder="Email Address" value="" data-validation="email" data-validation-error-msg="I beg, Your e-mail address no be correct!" >
    </div>
    
    <div class="field-wrapper">
@@ -1157,7 +1157,7 @@
 
    
    <button class="button green-btn button--large trn" onclick="submitBooking();" data-trn-key="book_now">
-	Book Now!
+	Reserve Now!
 	<div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
    </button>
      
@@ -1170,7 +1170,7 @@
 <ons-page id="page-booking-ty" class="onsen-display">
    <ons-toolbar>             
      <div class="left"><ons-back-button></ons-back-button></div> 
-     <div class="center white"><span id="search-text">Booking</span></div>                         
+     <div class="center white"><span id="search-text">Reservations</span></div>                         
      <div class="right">        
      </div>
    </ons-toolbar>
@@ -1259,7 +1259,7 @@
    
       <div class="field-wrapper" style="display:none;">
       <input type="text" name="rating"  class="numeric_only rating text-input text-input--underbar has_validation" 
-      placeholder="Your Rating 1 to 5" value="" data-validation="number" data-validation-allowing="range[1;5]"  data-validation-error-msg="please put 1 to 5 rating" >
+      placeholder="Your Rating 1 to 5" value="" data-validation="number" data-validation-allowing="range[1;5]"  data-validation-error-msg="I beg, put between 1 to 5 rating" >
       </div>
       
       <div class="field-wrapper">
@@ -1292,7 +1292,7 @@
      </ons-toolbar-button>        
     </div> 
          
-    <div class="center white"><span id="search-text" class="trn" data-trn-key="browse_resto">Browse Restaurant</span></div>           
+    <div class="center white"><span id="search-text" class="trn" data-trn-key="browse_resto">Browse Restaurants</span></div>           
     
     <div class="right">
       <ons-toolbar-button><ons-icon icon="fa-search" onclick="showFilterResto();"></ons-toolbar-button>
@@ -1425,18 +1425,18 @@
    
     <div class="home-header">
       <img src="css/images/banner.png" alt="" title="">
-      <p class="center trn" data-trn-key="please_log_or_reg">Please log in or register to continue with<br>your order</p>
+      <p class="center trn" data-trn-key="please_log_or_reg">I beg, log in or register to continue with<br>your order</p>
     </div> 
 
    <div class="wrapper center wrapper-white fb-login-wrap">   
       <button class="button blue-btn button--large fb-loginbutton" id="fb-loginbutton" onclick="fbInit();">
-        <ons-icon icon="fa-facebook"></ons-icon> <span class="trn" data-trn-key="sigin_fb">Sign in with Facebook</span>
+        <ons-icon icon="fa-facebook"></ons-icon> <span class="trn" data-trn-key="sigin_fb">Enter with Facebook</span>
       </button>                   
    </div>   
    
    <div class="wrapper center wrapper-white google-login-wrap">   
       <button class="button orange-btn button--large google-loginbutton" id="google-loginbutton" onclick="googleLogin();">
-        <ons-icon icon="ion-social-googleplus"></ons-icon> <span class="trn" data-trn-key="sigin_google">Sign in with Google</span>
+        <ons-icon icon="ion-social-googleplus"></ons-icon> <span class="trn" data-trn-key="sigin_google">Enter with Google</span>
       </button>                   
    </div>   
       
@@ -1449,7 +1449,7 @@
       </button>
       
       <br/>
-      <p class="small-font-dim trn" data-trn-key="you_dont_have_account">You dont have account?</p>
+      <p class="small-font-dim trn" data-trn-key="you_dont_have_account">You no get account?</p>
       <button class="trn button button--quiet green" onclick="showSignupForm();" data-trn-key="create_account">
        Create Account
        </button>                   
@@ -1478,14 +1478,14 @@
    <div class="wrapper center wrapper-white  fb-login-wrap">   
       <button class="button blue-btn button--large fb-loginbutton" id="fb-loginbutton" onclick="fbInit();">
         <ons-icon icon="fa-facebook"></ons-icon> 
-        <span class="sigin_fb trn" data-trn-key="sigin_fb">Sign in with Facebook</span>
+        <span class="sigin_fb trn" data-trn-key="sigin_fb">Enter with Facebook</span>
       </button>                   
    </div> 
 
    <div class="wrapper center wrapper-white google-login-wrap">   
       <button class="button orange-btn button--large google-loginbutton" id="google-loginbutton" onclick="googleLogin();">
         <ons-icon icon="ion-social-googleplus">
-        </ons-icon> <span class="trn" data-trn-key="sigin_google">Sign in with Google</span>
+        </ons-icon> <span class="trn" data-trn-key="sigin_google">Enter with Google</span>
       </button>                   
    </div>     
       
@@ -1520,7 +1520,7 @@
       
    <div class="wrapper center">                  
       <button class="trn button button--quiet green" onclick="showForgotPass();" data-trn-key="forgot_your_pass">
-       Forgot your password?
+       You Forget your password?
        </button>                   
    </div>
    
@@ -1539,21 +1539,21 @@
 
   <ons-page id="page-forgotpass" >  
 	  <ons-toolbar> 
-	      <div class="center white trn" data-trn-key="forgot_pass">Forgot Password</div>  	      	      
+	      <div class="center white trn" data-trn-key="forgot_pass">I Forget my Password</div>  	      	      
 	  </ons-toolbar>
 	  
 	  <form id="frm-forgotpass" class="frm-forgotpass" method="post">   
       <div class="wrapper">
       
       <p class="center small-font-dim trn" data-trn-key="forgot_pass_message">
-      Enter your email address you registered<br/>with and we will send you
-      instruction <br/>on how to reset your password
+      Enter your email address you register<br/>with and we go send you
+      instructions <br/>on how you go fit reset am
       </p>
       
           <div class="field-wrapper">
           <input type="text" name="email_address"  class="email_address text-input text-input--underbar has_validation" 
-           placeholder="Email address" value="" data-validation="required" data-validation-error-msg="this field is mandatory!" >
           </div>
+           placeholder="Email address" value="" data-validation="required" data-validation-error-msg="this field is mandatory!" >
       </div>      
       
       <div class="wrapper center">
@@ -1657,7 +1657,7 @@
      </ons-toolbar-button>        
     </div> 
          
-    <div class="center white"><span id="search-text" class="trn" data-trn-key="your_recent_order">Your Recent Order</span></div>                  
+    <div class="center white"><span id="search-text" class="trn" data-trn-key="your_recent_order">Your Recent Chow Orders</span></div>                  
    </ons-toolbar>
    
    <div class="order_list_wrap">
@@ -1678,7 +1678,7 @@
    </ons-toolbar>
    
   <div class="wrapper center"> 
-    <h3 class="text-big title"><span class="trn" data-trn-key="total">Total</span> : $ 0.00</h3>
+    <h3 class="text-big title"><span class="trn" data-trn-key="total">Total</span> : GH¢ 0.00</h3>
   </div>
    
   <ons-list class="list-dim-text" id="item-details">       
@@ -1704,7 +1704,7 @@
      </ons-toolbar-button>        
     </div> 
          
-    <div class="center white"><span id="search-text" class="trn" data-trn-key="address_book">Address Book</span></div>                  
+    <div class="center white"><span id="search-text" class="trn" data-trn-key="address_book">My Delivery Locations</span></div>                  
     
     <div class="right">
       <ons-toolbar-button><ons-icon icon="ion-plus-round" onclick="newAddressBook();"></ons-toolbar-button>
@@ -1724,7 +1724,7 @@
    <ons-toolbar>        
      <div class="left"><ons-back-button></ons-back-button></div>                      
      <div class="center white"><span id="search-text" class="trn" data-trn-key="address_book_details">
-     Address Book Details</span></div>                  
+     My Delivery Location Details</span></div>                  
      
      <div class="right">
      <ons-toolbar-button onclick="deleteAddressBook();" class="delete-addressbook">
@@ -1765,7 +1765,7 @@
       </div>
             
       <div class="field-wrapper">
-         <span class="small-font-dim trn" data-trn-key="defaul_address">Default address</span>
+         <span class="small-font-dim trn" data-trn-key="defaul_address">Default delivery location</span>
          <label class="switch">
 			  <input type="checkbox" value="2" class="switch__input as_default" name="as_default" >
 			  <div class="switch__toggle"></div>
@@ -1868,7 +1868,7 @@
      <div class="settings-header trn" data-trn-key="notifications">Notifications</div>
      <ons-list modifier="inset" class="settings-list">        
         <ons-list-item >
-          <span class="trn" data-trn-key="enabled_push_notification">Enabled Push Notification</span>
+          <span class="trn" data-trn-key="enabled_push_notification">Enable Push Notification</span>
           <ons-switch modifier="list-item" var="enabled_push" name="enabled_push" id="enabled_push"  >
           </ons-switch>
         </ons-list-item>
@@ -1935,13 +1935,13 @@
 	  <div class="wrapper center pad-top20">	 
 	   <div class="field-wrapper">
           <input type="text" id="new_s" name="new_s"  class="new_s text-input text-input--underbar has_validation" 
-           placeholder="Enter your address" value="" data-validation="required" data-validation-error-msg="this field is mandatory!" >
+           placeholder="Where You Dey..?" value="" data-validation="required" data-validation-error-msg="this field is mandatory!" >
        </div>	  	  	  
 	  </div>  
 	  
 	  <div class="wrapper center">
       <button class="button green-btn trn" onclick="changeAddress();" data-trn-key="change_address">
-	  Change address	  
+	  Change delivery location	  
 	  </button>
 	  </div>
 	  </form>
@@ -2192,15 +2192,15 @@
    <div class="wrapper">
    
    <p class="mobile-verification-msg trn center p-dim" data-trn-key="validation_mobile_help_msg">
-   We have sent verification code to your mobile number
+   We send verification code put your phone top
    </p>
    
    <p style="margin-left: 10px;margin-right: 10px;" class="email-verification-msg trn center p-dim" data-trn-key="validation_email_help_msg">
-   We have sent verification code to your email address
+   We send verification code put your email inside
    </p>
    
    <p class="trn center p-dim" data-trn-key="enter_your_verification_code">
-   Please enter you verification code
+   I beg, enter your verification code
    </p>
    
    <div class="field-wrapper">
@@ -2386,20 +2386,20 @@
    <ons-toolbar>        
     <div class="left"><ons-back-button></ons-back-button></div>             
     <div class="center white">
-    <span  class="trn" data-trn-key="address">Address</span></div>                  
+    <span  class="trn" data-trn-key="address">Location</span></div>                  
    </ons-toolbar>
 
    <ons-list>       
        <ons-list-item modifier="chevron" onclick="popUpAddressBook();" > 
-       <span class="trn" data-trn-key="select_from_address">Select from your address book</span>       
+       <span class="trn" data-trn-key="select_from_address">Select from your location list inside</span>       
        </ons-list-item>    
        
        <ons-list-item modifier="chevron" onclick="showMapAddress('mapaddress');" > 
-       <span class="trn" data-trn-key="select_from_address_map">Select your address from map</span>
+       <span class="trn" data-trn-key="select_from_address_map">Select your location for map top</span>
        </ons-list-item>    
        
        <ons-list-item modifier="chevron" onclick="showManualAddressInput();" style="display:none;" > 
-       <span class="trn" data-trn-key="enter_your_address">Enter your address</span>
+       <span class="trn" data-trn-key="enter_your_address">Enter your current location</span>
        </ons-list-item>    
    </ons-list>
    
@@ -2470,7 +2470,7 @@
    
    <div class="list-wrapper" id="direction-wrap">
          <ons-button class="button green-btn button--large" onclick="useThisLocation()" >
-          <span class="trn use-location" data-trn-key="use_this_location">Use this Location</span>
+          <span class="trn use-location" data-trn-key="use_this_location">Use my current Location</span>
          </ons-button>    
     </div>
       
@@ -2484,17 +2484,17 @@
    <ons-toolbar>        
     <div class="left"><ons-back-button></ons-back-button></div>             
     <div class="center white">
-    <span  class="trn" data-trn-key="change_address">Change Address</span></div>                  
+    <span  class="trn" data-trn-key="change_address">Change Location</span></div>                  
    </ons-toolbar>
 
      <ons-list>              
        
        <ons-list-item modifier="chevron" onclick="showMapAddress('changeaddress');" > 
-       <span class="trn" data-trn-key="select_from_address_map">Select your address from map</span>
+       <span class="trn" data-trn-key="select_from_address_map">Select your location for map top</span>
        </ons-list-item>    
        
        <ons-list-item modifier="chevron" onclick="addressPopup();" > 
-       <span class="trn" data-trn-key="enter_your_address">Enter your address</span>       
+       <span class="trn" data-trn-key="enter_your_address">Enter your location</span>       
        </ons-list-item>    
               
    </ons-list>
@@ -2525,7 +2525,7 @@
        </ons-list-item>                  
        
        <ons-list-item modifier="chevron" onclick="showTrackPage();" > 
-       <span class="trn" data-trn-key="track_order">Track Order</span>
+       <span class="trn" data-trn-key="track_order">Track your Order</span>
        </ons-list-item>                  
        
        <ons-list-item modifier="chevron" onclick="requestCancelOrder();" class="cancel_this_order" > 
@@ -2587,7 +2587,7 @@
     onclick="showTrackingPage();" data-trn-key="track_driver"
     style="position:fixed;bottom:0;"
     >
-	Track Your Order	
+	Track the Delivery	
    </button>
 
 </ons-page>
@@ -2601,7 +2601,7 @@
      <div class="left"><ons-back-button onclick="reRunTrackOrder();"></ons-back-button></div>                      
      <div class="center white">
      <span class="trn" data-trn-key="track_driver" >
-      Track Your Order
+      Track the Delivery
      </span>
      </div>
    </ons-toolbar>
@@ -2615,7 +2615,7 @@
             </ons-col>
             <ons-col>
               <h3 class="_driver_name"></h3>
-              <p class="small-font-dim trn" data-trn-key="your_delivery_guy" >Your Delivery Guy</p>
+              <p class="small-font-dim trn" data-trn-key="your_delivery_guy" >Your Delivery Guy's details</p>
             </ons-col>
             <ons-col width="25%" class="center">
                <a class="button green-btn button--large call_driver">
@@ -2637,7 +2637,7 @@
      <div class="left"><ons-back-button></ons-back-button></div>                      
      <div class="center white">
      <span class="trn" data-trn-key="enter_your_contact" >
-      Enter Your Contact Number
+      Enter Your Number for here
      </span>
      </div>
    </ons-toolbar>
@@ -2724,7 +2724,7 @@
      <div class="left"><ons-back-button></ons-back-button></div>                      
      <div class="center white">
      <span class="trn" data-trn-key="credit_card" >
-       Credit Card
+       Bank Card
      </span>
      </div>
      
@@ -2752,7 +2752,7 @@
      <div class="left"><ons-back-button></ons-back-button></div>                      
      <div class="center white">
      <span class="trn" data-trn-key="add_credit_card" >
-       Add Credit Card 
+       Add Bank Card 
      </span>
      </div>          
    </ons-toolbar>
@@ -2952,7 +2952,7 @@
    <ons-list>
    
    <ons-list-item modifier="chevron" class="trn" data-trn-key="select_from_address" onclick ="showAddressBookLocation();" >        
-    Select from your address book
+    Select from your location list inside
     </ons-list-item>
     
    <ons-list-item modifier="chevron" class="trn location_state" data-trn-key="location_state" onclick ="showState()" >        
@@ -3004,7 +3004,7 @@
 			  <div class="switch__toggle"></div>
 		  </label>  		  
 		  <span class="small-font-dim trn" data-trn-key="save_address_book" style="margin-top: 8px; display: inline-block">
-		    Save to my address book
+		    Save to my Delivery Locations List
 		  </span>
 	    </div> 
     </div> 
@@ -3105,7 +3105,7 @@
 <ons-page id="page-promo">
    <ons-toolbar>        
      <div class="left"><ons-back-button></ons-back-button></div>                      
-     <div class="center white"><span class="trn" data-trn-key="promos" >Promos</span></div>                       
+     <div class="center white"><span class="trn" data-trn-key="promos" >Promotions</span></div>                       
    </ons-toolbar>
    
    <ons-scroller class="promo-list" id="promo-list">	  
@@ -3194,7 +3194,7 @@
     </section>
     
     <button class="button green-btn button--large" onclick="searchByAddress();">
-	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
+	      <span class="trn" data-trn-key="search_restaurant">Search Chow Joints</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	</button>
 	
@@ -3221,7 +3221,7 @@
     </section>
     
     <button class="button green-btn button--large" onclick="searchByName();">
-	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
+	      <span class="trn" data-trn-key="search_restaurant">Search Chow Joints</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	</button>
     
@@ -3240,7 +3240,7 @@
     </section>
     
     <button class="button green-btn button--large" onclick="searchByStreet();">
-	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
+	      <span class="trn" data-trn-key="search_restaurant">Search Chow Joints</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	</button>
     
@@ -3259,7 +3259,7 @@
     </section>
     
     <button class="button green-btn button--large" onclick="searchByCuisine();">
-	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
+	      <span class="trn" data-trn-key="search_restaurant">Search Chow Joints</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	</button>
     
@@ -3278,7 +3278,7 @@
     </section>
     
     <button class="button green-btn button--large" onclick="searchByFoodName();">
-	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
+	      <span class="trn" data-trn-key="search_restaurant">Search Chow Joints</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	</button>
     
@@ -3369,7 +3369,7 @@
     <div class="wrapper">       
     
     <div class="field-wrapper">
-         <span class="small-font-dim trn" data-trn-key="defaul_address">Default address</span>
+         <span class="small-font-dim trn" data-trn-key="defaul_address">Default Delivery Location</span>
          <label class="switch">
 			  <input type="checkbox" value="2" class="switch__input as_default" name="as_default" >
 			  <div class="switch__toggle"></div>
@@ -3428,7 +3428,7 @@
   
    <ons-toolbar>        
      <div class="left"><ons-back-button></ons-back-button></div>                      
-     <div class="center white"><span class="trn" data-trn-key="select_delivery_address" >Select Your Delivery Address</span></div>                       
+     <div class="center white"><span class="trn" data-trn-key="select_delivery_address" >Select Your Delivery Location</span></div>                       
    </ons-toolbar>
    
    <input type="hidden" name="map_type" id="map_type" class="map_type">
