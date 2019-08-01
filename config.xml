@@ -61,8 +61,8 @@
     
     <platform name="android">	
 		<config-file parent="/resources" target="./res/values/strings.xml">
-			<string name="fb_app_id">365508790750003</string>
-			<string name="fb_app_name">Chow Now Now</string>
+			<string name="facebook_app_id">365508790750003</string>
+			<string name="facebook_app_name">Chow Now Now</string>
 		</config-file>               
     </platform>
  
