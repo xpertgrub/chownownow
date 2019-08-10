@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "752412859541",
+    "firebase_url": "https://chow-now-now-112233.firebaseio.com",
+    "project_id": "chow-now-now-112233",
+    "storage_bucket": "chow-now-now-112233.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752412859541:android:0e148bff500bde5c",
+        "android_client_info": {
+          "package_name": "com.xpertgrub.chownownow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752412859541-57rioeflk1feqei22ji7l1e5dlrbr28q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xpertgrub.chownownow",
+            "certificate_hash": "d2e3258e837f3c566dc58e7971b5acf7fcb2ea16"
+          }
+        },
+        {
+          "client_id": "752412859541-7arkglufnbv3146sl7r2uc39rm3us334.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA95zH2gd7ovgfCAJbVD2lceee9KZNEz1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752412859541-7arkglufnbv3146sl7r2uc39rm3us334.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
